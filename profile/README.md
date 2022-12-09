@@ -1,12 +1,19 @@
-## Hi there 👋
 
-<!--
+<h1 style="text-align:center;color:cyan;">   Faculty of Computer and Information Science</h1>
+```py
+  class PersonalInfo:
+    def __init__(self):
+        'Nour Adel'
+        self.title = 'Software Engineer'
+        self.location = 'Obour City , Egypt'
+        self.ides = ['eclipse', 'IntelliJ', 'PyCharm', 'VS Code' ]
+        self.languages = ['C++', 'Java', 'Python', 'HTML', 'CSS']
+        self.challenge = 'Practicing to improve my Problem Solving skill'
 
-**Here are some ideas to get you started:**
+    def __str__(self):
+        return self.name
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
+if __name__ == '__main__':
+    me = PersonalInfo()
+```
